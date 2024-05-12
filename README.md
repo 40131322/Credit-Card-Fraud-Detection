@@ -29,13 +29,13 @@ Encode categorical features (e.g., type) using one-hot encoding.
 Drop irrelevant columns (oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest) for fraud detection.
 Split the dataset into training and testing sets.
 
-##Feature Engineering:
+## Feature Engineering:
 
 Explore feature correlations and distributions.
 Create additional features if necessary (e.g., time-based features).
 Scale numerical features if required.
 
-##Model Selection:
+## Model Selection:
 
 Choose appropriate machine learning algorithms for fraud detection (e.g., Logistic Regression, Random Forest, Gradient Boosting).
 Train multiple models and compare their performance using cross-validation.
