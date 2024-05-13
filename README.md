@@ -30,7 +30,22 @@ isFraud: Binary indicator of whether the transaction is fraudulent.
 
 isFlaggedFraud: Binary indicator of illegal attempts to transfer more than 200,000 in a single transaction.
 
-#Machine Learning Process:
+# Machine Learning Process:
+
+
+## Data Preprocessing:
+
+Load the PaySim dataset.
+
+Handle missing values if any.
+
+Encode categorical features (e.g., type) using one-hot encoding.
+
+Cleaning data to prepare for model fitting
+
+Drop irrelevant columns (oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest) for fraud detection.
+
+Split the dataset into training and testing sets.
 
 
 ## Exploratory Data Analysis (EDA):
@@ -45,18 +60,6 @@ Analyze the correlation between features and the target variable.
 
 Explore any other relevant patterns or anomalies in the data.
 
-
-## Data Preprocessing:
-
-Load the PaySim dataset.
-
-Handle missing values if any.
-
-Encode categorical features (e.g., type) using one-hot encoding.
-
-Drop irrelevant columns (oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest) for fraud detection.
-
-Split the dataset into training and testing sets.
 
 ## Feature Engineering:
 
